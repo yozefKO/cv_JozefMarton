@@ -1,0 +1,62 @@
+aside{
+    background:gray;
+    width: 33.33333%;
+  }
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+    
+nav img{
+    display: grid;
+    width: 99%;
+    border-right: 2px solid rgb(55, 65, 81);
+    border-bottom: 2px solid rgb(55, 65, 81);
+    border-radius: 0.375rem;
+}
+
+nav a{
+    
+    color: black;
+    font-weight: bold;
+    text-decoration-line: none;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    border-right: 2px solid rgb(55, 65, 81);
+    border-bottom: 2px solid rgb(55, 65, 81);
+    
+    background: rgba(255,255,255, 0.4);
+    border-radius: 0.375rem;
+
+    /* height: 2.1rem; */
+    padding: 0.2rem;
+
+}
+
+nav .Skills:hover,
+nav .Skills:active{
+    background: rgba(255, 255, 255, 0.675);
+   
+
+}
+
+nav .Gallery:hover,
+nav .Gallery:active{
+    background: rgba(0, 0, 255, 0.512);
+    color: white
+
+}
+
+nav .Contact:hover,
+nav .Contact:active{
+    background: rgba(255, 0, 0, 0.804);
+    color: white;
+
+}
+
+
