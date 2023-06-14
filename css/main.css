@@ -1,0 +1,87 @@
+body{
+  color: rgb(207, 203, 203);
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+
+  background-image: 
+  linear-gradient(
+
+    to right,
+    rgb(248, 113, 133),
+    rgb(244, 114, 182)
+    );
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1 {
+  margin-top: 0px
+}
+
+.app{
+  width: 52rem;
+  height: 36rem;
+
+  border: 2px solid black;
+  background: rgb(82, 81, 81);
+  border-radius: 0.75rem;
+
+  display: flex;
+  flex-direction: row;
+
+  /* zarovnanie vytekajucich rohov v aside elemente */
+  overflow: hidden;
+
+}
+
+.canvas img{
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  left: 2.5rem;
+
+  /* display: block; */
+  
+ 
+  /* aspect-ratio: 5/2; */
+  
+}
+
+.work {
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+}
+
+header{
+  border-bottom: 2px solid black;
+  display: flex;
+}
+
+header h1{
+  margin: 0rem;
+  padding: 1rem;
+}
+
+aside,
+main{
+  padding: 1.25rem;
+}
+
+aside{
+  background:gray;
+  width: 33.33333%;
+}
+
+main{
+
+  width: 66.66667%;
+  border-left: 2px solid black;
+  
+}
+
+
+

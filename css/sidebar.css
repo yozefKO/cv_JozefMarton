@@ -38,25 +38,13 @@ nav a{
 
 }
 
-nav .Skills:hover,
+nav .Skills:hover, 
+nav .Hobbies:hover, 
+nav .Work:hover, 
+nav .Motivation:hover,
 nav .Skills:active{
     background: rgba(255, 255, 255, 0.675);
-   
-
 }
 
-nav .Gallery:hover,
-nav .Gallery:active{
-    background: rgba(0, 0, 255, 0.512);
-    color: white
-
-}
-
-nav .Contact:hover,
-nav .Contact:active{
-    background: rgba(255, 0, 0, 0.804);
-    color: white;
-
-}
 
 
